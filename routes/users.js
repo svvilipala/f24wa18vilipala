@@ -2,8 +2,12 @@ var express = require('express');
 var router = express.Router();
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+let value = 0;
+let total = 1;
+router.get('/', function(req, res,next) {
+  value +=2;
+  total = total + value;
+  res.send('Total is: ' + total);
 });
 
 module.exports = router;
