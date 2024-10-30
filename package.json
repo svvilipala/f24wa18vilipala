@@ -1,15 +1,21 @@
 {
   "name": "f24wa18vilipala",
-  "version": "1.0.0",
-  "description": "Web Apps Assignment 9 Server",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "^4.3.7",
+    "express": "^4.21.1",
+    "http-error": "^0.0.6",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.3"
+  },
+  "main": "app.js",
   "author": "Sri Vidya Vilipala",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.21.1"
-  }
+  "description": ""
 }
-
