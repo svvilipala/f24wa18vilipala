@@ -16,7 +16,7 @@ function applyMathFunction(x) {
     case 0:
       return `floor applied to ${x} is ${Math.floor(x)}`;
     default:
-      return `Unexpected error with rotation logic`;
+      return `Unexpected error `;
   }
 }
 
